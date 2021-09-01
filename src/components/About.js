@@ -22,7 +22,7 @@ export default function About(props) {
               aria-controls="collapseOne"
               style={myStyle}
             >
-              Accordion Item #1
+             <strong>Compatible</strong> 
             </button>
           </h2>
           <div
@@ -32,14 +32,7 @@ export default function About(props) {
             data-bs-parent="#accordionExample"
           >
             <div className="accordion-body" style={myStyle}>
-              <strong>This is the first item's accordion body.</strong> It is
-              shown by default, until the collapse plugin adds the appropriate
-              classes that we use to style each element. These classes control
-              the overall appearance, as well as the showing and hiding via CSS
-              transitions. You can modify any of this with custom CSS or
-              overriding our default variables. It's also worth noting that just
-              about any HTML can go within the <code>.accordion-body</code>,
-              though the transition does limit overflow.
+             Can be used with any browser like firefox,opera etc and can be used to analayze any facebook text,pdf text or a simple word document.
             </div>
           </div>
         </div>
@@ -54,7 +47,7 @@ export default function About(props) {
               aria-controls="collapseTwo"
               style={myStyle}
             >
-              Accordion Item #2
+             <strong>Free to Use</strong> 
             </button>
           </h2>
           <div
@@ -64,14 +57,7 @@ export default function About(props) {
             data-bs-parent="#accordionExample"
           >
             <div className="accordion-body" style={myStyle}>
-              <strong>This is the second item's accordion body.</strong> It is
-              hidden by default, until the collapse plugin adds the appropriate
-              classes that we use to style each element. These classes control
-              the overall appearance, as well as the showing and hiding via CSS
-              transitions. You can modify any of this with custom CSS or
-              overriding our default variables. It's also worth noting that just
-              about any HTML can go within the <code>.accordion-body</code>,
-              though the transition does limit overflow.
+              It is a free to use application you need to buy anyanything you can use it whenever you want. 
             </div>
           </div>
         </div>
@@ -86,7 +72,7 @@ export default function About(props) {
               aria-controls="collapseThree"
               style={myStyle}
             >
-              Accordion Item #3
+              Anaylze Your Text
             </button>
           </h2>
           <div
@@ -96,14 +82,7 @@ export default function About(props) {
             data-bs-parent="#accordionExample"
           >
             <div className="accordion-body" style={myStyle}>
-              <strong>This is the third item's accordion body.</strong> It is
-              hidden by default, until the collapse plugin adds the appropriate
-              classes that we use to style each element. These classes control
-              the overall appearance, as well as the showing and hiding via CSS
-              transitions. You can modify any of this with custom CSS or
-              overriding our default variables. It's also worth noting that just
-              about any HTML can go within the <code>.accordion-body</code>,
-              though the transition does limit overflow.
+             TextUtils provides you the facility to analyze youe text ,count words,remove punctutation etc in a very user freindly way.
             </div>
           </div>
         </div>
