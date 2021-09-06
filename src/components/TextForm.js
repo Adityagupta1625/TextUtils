@@ -47,12 +47,12 @@ export default function TextForm(props) {
   const handleCaptlizetext=()=>{
     let t=text;
     let words=t.split(" ");
-    let finalText=" ";
+    let finalText="";
     for(let i=0;i<words.length;i++){
 
       let lower=words[i].toLowerCase();
-      lower=lower.charAt(0).toUpperCase()+lower.slice(1);
-      finalText=finalText+" "+lower;
+      lower=lower.charAt(0).toUpperCase()+lower.slice(1)+' ';
+      finalText=finalText+""+lower;
     }
     
     setText(finalText);
